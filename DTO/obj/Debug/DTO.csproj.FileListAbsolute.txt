@@ -1,0 +1,9 @@
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\bin\Debug\DTO.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\bin\Debug\DTO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\bin\Debug\DTO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DTO\obj\Debug\DTO.pdb

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC8BC49C-0663-4A30-BEF3-3DC0450BE208}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DTO</RootNamespace>
+    <AssemblyName>DTO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ModelBase\BrandModelBase.cs" />
+    <Compile Include="ModelBase\DecentralizationModelBase.cs" />
+    <Compile Include="ModelBase\DeviceDetailModel.cs" />
+    <Compile Include="ModelBase\DeviceErrorModelBase.cs" />
+    <Compile Include="ModelBase\DeviceModelBase.cs" />
+    <Compile Include="ModelBase\DeviceRegistrationModelBase.cs" />
+    <Compile Include="ModelBase\DeviceType_SpecsModel.cs" />
+    <Compile Include="ModelBase\Device_TypeModelBase.cs" />
+    <Compile Include="ModelBase\FacultyModelBase.cs" />
+    <Compile Include="ModelBase\LocationModelBase.cs" />
+    <Compile Include="ModelBase\PositionModelBase.cs" />
+    <Compile Include="ModelBase\RoomModelBase.cs" />
+    <Compile Include="ModelBase\ShipmentDetailModelBase.cs" />
+    <Compile Include="ModelBase\ShipmentModelBase.cs" />
+    <Compile Include="ModelBase\SpecsModelBase.cs" />
+    <Compile Include="ModelBase\TeacherModelBase.cs" />
+    <Compile Include="ModelBase\UserModelBase.cs" />
+    <Compile Include="Model\BrandModel.cs" />
+    <Compile Include="Model\DecentralizationModel.cs" />
+    <Compile Include="Model\DeviceDetailModel.cs" />
+    <Compile Include="Model\DeviceErrorModel.cs" />
+    <Compile Include="Model\DeviceModel.cs" />
+    <Compile Include="Model\DeviceRegistrationModel.cs" />
+    <Compile Include="Model\DeviceSpecsModel.cs" />
+    <Compile Include="Model\DeviceType_SpecsModel.cs" />
+    <Compile Include="Model\Device_TypeModel.cs" />
+    <Compile Include="Model\FacultyModel.cs" />
+    <Compile Include="Model\LocationModel.cs" />
+    <Compile Include="Model\PositionModel.cs" />
+    <Compile Include="Model\RoomModel.cs" />
+    <Compile Include="Model\ShipmentDetailModel.cs" />
+    <Compile Include="Model\ShipmentModel.cs" />
+    <Compile Include="Model\TeacherModel.cs" />
+    <Compile Include="Model\UserModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
