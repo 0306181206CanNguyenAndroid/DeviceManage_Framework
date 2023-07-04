@@ -11,3 +11,16 @@ C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DAO\bin\Debug\DTO.dll.config
 C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DAO\obj\Debug\DAO.csproj.CopyComplete
 C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DAO\obj\Debug\DAO.dll
 C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DAO\obj\Debug\DAO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DAO.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DAO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DAO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DTO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DTO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\bin\Debug\DTO.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.Properties.Resources.resources
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DAO\obj\Debug\DAO.pdb
