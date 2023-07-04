@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13015FC1-6154-40EC-9E9F-3DF5DD26FFDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DAO</RootNamespace>
+    <AssemblyName>DAO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataLayerBase\BrandDAOBase.cs" />
+    <Compile Include="DataLayerBase\DecentralizationDAOBase.cs" />
+    <Compile Include="DataLayerBase\DeviceDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\DeviceDetailDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\DeviceErrorDAOBase.cs" />
+    <Compile Include="DataLayerBase\DeviceRegistrationDAOBase.cs" />
+    <Compile Include="DataLayerBase\DeviceType_SpecsDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\Device_TypeDAOBase.cs" />
+    <Compile Include="DataLayerBase\FacultyDAOBase.cs" />
+    <Compile Include="DataLayerBase\FacultyDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\LocationDAOBase.cs" />
+    <Compile Include="DataLayerBase\PositionDAOBase.cs" />
+    <Compile Include="DataLayerBase\RoomDAOBase.cs" />
+    <Compile Include="DataLayerBase\ShipmentDAOBase.cs" />
+    <Compile Include="DataLayerBase\ShipmentDetailDAOBase.cs" />
+    <Compile Include="DataLayerBase\SpecsDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\SystemUserDataLayerBase.cs" />
+    <Compile Include="DataLayerBase\TeacherDAOBase.cs" />
+    <Compile Include="DataLayerBase\UserDataLayerBase.cs" />
+    <Compile Include="DataLayer\BrandDAO.cs" />
+    <Compile Include="DataLayer\DecentralizationDAO.cs" />
+    <Compile Include="DataLayer\DeviceDataLayer.cs" />
+    <Compile Include="DataLayer\DeviceDetailDataLayer.cs" />
+    <Compile Include="DataLayer\DeviceErrorDataLayer.cs" />
+    <Compile Include="DataLayer\DeviceRegistrationDataLayer.cs" />
+    <Compile Include="DataLayer\DeviceType_SpecsDataLayer.cs" />
+    <Compile Include="DataLayer\Device_TypeDao.cs" />
+    <Compile Include="DataLayer\FacultyDAO.cs" />
+    <Compile Include="DataLayer\FacultyDataLayer.cs" />
+    <Compile Include="DataLayer\LocationDataLayer.cs" />
+    <Compile Include="DataLayer\PositionDao.cs" />
+    <Compile Include="DataLayer\RoomDAO.cs" />
+    <Compile Include="DataLayer\ShipmentDataLayer.cs" />
+    <Compile Include="DataLayer\ShipmentDetailDataLayer.cs" />
+    <Compile Include="DataLayer\SpecsDataLayer.cs" />
+    <Compile Include="DataLayer\SystemUserDataLayer.cs" />
+    <Compile Include="DataLayer\TeacherDAO.cs" />
+    <Compile Include="DataLayer\UserDataLayer.cs" />
+    <Compile Include="PathString.cs" />
+    <Compile Include="ProcString.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{ac8bc49c-0663-4a30-bef3-3dc0450be208}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
