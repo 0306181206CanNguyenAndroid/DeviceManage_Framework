@@ -1,0 +1,16 @@
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\BUS.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\BUS.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\BUS.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DAO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DTO.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DAO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DAO.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DTO.pdb
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\bin\Debug\DTO.dll.config
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.Properties.Resources.resources
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.csproj.GenerateResource.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.dll
+C:\Users\This PC\OneDrive\Máy tính\DeviceManage\BUS\obj\Debug\BUS.pdb
