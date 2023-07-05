@@ -8,13 +8,21 @@ namespace DeviceManage
 {
     public static class SettingClass
     {
-        public static string path_Folder_Resource= Path.GetFullPath("../../Resources/");
+        #region Path
+        public static string path_Folder_Resource = Path.GetFullPath("../../Resources/");
         public static string path_Folder_QR_Image = Path.GetFullPath("../../Resources/QR/");
         public static string path_Folder_Default_Image = Path.GetFullPath("../../Resources/DefaultImage/");
         public static string path_Folder_Image_Device = Path.GetFullPath("../../Resources/ImageDevice/");
         public static string path_Image_Device_Default = Path.GetFullPath("../../Resources/DefaultImage/pc.jpg");
         public static string path_NoImage_Default = Path.GetFullPath("../../Resources/DefaultImage/no_image1.png");
         public static string path_ErrorFile_Default = Path.GetFullPath("../../Resources/DefaultImage/file_error.jpg");
+        #endregion
+
+        #region Title
+        public static string TextTitle_ThongBao = "Thông báo";
+        public static string TextTitle_Warning = "Cảnh báo!";
+        #endregion
+
         public static string GetMD5(string chuoi)
         {
             string str_md5 = "";

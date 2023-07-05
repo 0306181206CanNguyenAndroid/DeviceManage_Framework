@@ -15,12 +15,16 @@ namespace DeviceManage
 {
     public partial class AddDeviceFromShipment : Form
     {
-        public AddDeviceFromShipment()
+        public AddDeviceFromShipment(ShipmentModel ship, int userId)
         {
                 InitializeComponent();
-                Setting();
-                Load_Source();
-                Load_Form();
+            shipment = ship;
+            UserId = userId; 
+            Setting();
+            Load_Source();
+            Load_Form();
+            ptb_Device.Image = Image.FromFile(SettingClass.path_NoImage_Default);
+            LoadListDetail();
         }
 
         //private UserModel tkql;
@@ -29,8 +33,11 @@ namespace DeviceManage
         #region Model
 
         //Khai báo các class lấy dl cho form
-        List<DeviceModel> listDevice = null;
-        DeviceModel currentDevice = null;
+        public ShipmentModel shipment = null;
+        private int UserId = 1;
+        private DeviceModel device;
+        private List<DeviceModel> listDevice = null;
+        private DeviceModel currentDevice = null;
         public DeviceDetailModel currientDetail = null;
 
         List<DeviceDetailModel> listDetail = null;
@@ -46,6 +53,8 @@ namespace DeviceManage
         private void Setting()
         {
             txtPrice.Text = "0.0";
+            dtgv_ListDetail.AutoGenerateColumns = false;
+            ptb_Device.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
         private void LoadListImg()
@@ -83,6 +92,13 @@ namespace DeviceManage
         {
             Load_Source();
             LoadListImg();
+            LoadDTGVDeviceDetail();
+        }
+
+        private void LoadDTGVDeviceDetail()
+        {
+            Load_ComboboxSpecs();
+            Load_DataGridView();
         }
 
         private void Load_Source()
@@ -120,24 +136,6 @@ namespace DeviceManage
                 stream.Close();
                 stream.Dispose();
                 GC.Collect();
-
-            }
-        }
-
-        private void dtgv_ListDetail_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (dtgv_ListDetail.SelectedCells.Count > 0)
-            {
-                int detailId = (int)dtgv_ListDetail.SelectedCells[0].OwningRow.Cells["Specs"].Value;
-
-                foreach (DeviceDetailModel de in listDetail)
-                {
-                    if (de.Id == detailId)
-                    {
-                        currientDetail = de;
-                        return;
-                    }
-                }
 
             }
         }
@@ -208,7 +206,7 @@ namespace DeviceManage
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Thất bại! Lỗi " + ex.Message, "Thông Báo", MessageBoxButtons.OK);
+                MessageClass.Message_Event(ex.Message, SettingClass.TextTitle_ThongBao, true);
             }
 
         }
@@ -350,6 +348,53 @@ namespace DeviceManage
             }
         }
 
+        #region Load
+        private void EventChangeData(object Sender, Action_AddSpecsForDeviceTypeEventArgs eventArgs)
+        {
+            MessageBox.Show("Có cập nhật", "Thông Báo", MessageBoxButtons.OK);
+        }
 
+        private List<DeviceDetailModel> GetDetail(int deviceId)
+        {
+            return DeviceDetailBus.SelectAllDynamicWhere(null, deviceId, null, null, null, null, null, null, null, false, null);
+        }
+
+        public void Load_ComboboxSpecs()
+        {
+            var cbData = (DataGridViewComboBoxColumn)dtgv_ListDetail.Columns["Specs"];
+            cbData.DisplayMember = "NameSpecs";
+            cbData.ValueMember = "Id";
+            cbData.DataSource = listDetail;
+        }
+
+        private void LoadListDetail()
+        {
+            listDetail = GetDetail(device.Id);
+        }
+
+        public void Load_DataGridView()
+        {
+            bs.DataSource = listDetail.ToList();
+            dtgv_ListDetail.DataSource = bs;
+        }
+        #endregion
+
+        private void dtgv_ListDetail_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dtgv_ListDetail.SelectedCells.Count > 0)
+            {
+                int detailId = (int)dtgv_ListDetail.SelectedCells[0].OwningRow.Cells["Specs"].Value;
+
+                foreach (DeviceDetailModel de in listDetail)
+                {
+                    if (de.Id == detailId)
+                    {
+                        currientDetail = de;
+                        return;
+                    }
+                }
+
+            }
+        }
     }
 }

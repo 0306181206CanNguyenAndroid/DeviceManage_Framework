@@ -306,3 +306,14 @@ begin
 	from System_Decentralization d ,S_Teacher t,[System_User] u
 	where d.TeacherId=t.Id and d.UserId=u.Id and ISNULL(d.IsDeleted,0)=0
 end
+go
+------------------------Thêm proc --------------------
+
+create proc Teacher_GetTeacherByUserId(@id int, @isDeleted bit)
+as
+	begin
+	select TeacherId from [dbo].System_Decentralization 
+	where (@isDeleted is null or IsNull(Isdeleted,0)= @isDeleted) and 
+	UserID = @id
+	end
+go

@@ -19,7 +19,8 @@ namespace DeviceManage
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new frmTrangChu());
-            Application.Run(new frmLogin());
+            //Application.Run(new frmLogin());
+            Application.Run(new frmShipment());
             //Application.Run(new frmTaoTaiKhoan());
             //Application.Run(new frmQuanLyGiaoVien());
             //Application.Run(new frmQuanLyChucVu());

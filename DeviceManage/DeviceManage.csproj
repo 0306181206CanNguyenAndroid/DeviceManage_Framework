@@ -221,6 +221,7 @@
     <Compile Include="frmTrangChuGiaoVien.Designer.cs">
       <DependentUpon>frmTrangChuGiaoVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Message.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report.cs">
@@ -236,7 +237,11 @@
       <DependentUpon>reportThietBiTheoPhong.cs</DependentUpon>
     </Compile>
     <Compile Include="SettingClass.cs" />
-    <Compile Include="SqlServerTypes\Loader.cs" />
+   CanNguyen_FramworkBranch
+    <EmbeddedResource Include="AddDeviceFromShipment.resx">
+      <DependentUpon>AddDeviceFromShipment.cs</DependentUpon>
+    </EmbeddedResource>
+
     <EmbeddedResource Include="DeviceDetail.resx">
       <DependentUpon>DeviceDetail.cs</DependentUpon>
     </EmbeddedResource>
@@ -261,8 +266,10 @@
     <EmbeddedResource Include="frmQuanLyLoaiThietBi.resx">
       <DependentUpon>frmQuanLyLoaiThietBi.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyPhongMay.resx">
-      <DependentUpon>frmQuanLyPhongMay.cs</DependentUpon>
+
+    <EmbeddedResource Include="frmShipment.resx">
+      <DependentUpon>frmShipment.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyTaiKhoan.resx">
       <DependentUpon>frmQuanLyTaiKhoan.cs</DependentUpon>
@@ -275,6 +282,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTaoTaiKhoan.resx">
       <DependentUpon>frmTaoTaiKhoan.cs</DependentUpon>
+
     </EmbeddedResource>
     <EmbeddedResource Include="frmTrangChu.resx">
       <DependentUpon>frmTrangChu.cs</DependentUpon>

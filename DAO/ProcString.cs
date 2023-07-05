@@ -391,7 +391,38 @@ namespace DAO
 
         #endregion
 
+        #region Teacher
+
+        public static string procNameTeacher_SelectByPrimaryKey = "[dbo].[Teacher_SelectByPrimaryKey]";
+        public static string procNameTeacher_SelectByUserId = "[dbo].[Teacher_GetTeacherByUserId]";
+        public static string procNameTeacher_GetRecordCount = "[dbo].[Teacher_GetRecordCount]";
+        public static string procNameTeacher_GetRecordCountDynamicWhere = "[dbo].[Teacher_GetRecordCountWhereDynamic]";
+        public static string procNameTeacher_SelectSkipAndTake = "[dbo].[Teacher_SelectSkipAndTake]";
+        public static string procNameTeacher_SelectSkipAndTakeDynamicWhere = "[dbo].[Teacher_SelectSkipAndTakeWhereDynamic]";
+        public static string procNameTeacher_SelectTotal = "[dbo].[Teacher_SelectTotals]";
+        public static string procNameTeacher_SelectAll = "[dbo].[Teacher_SelectAll]";
+        public static string procNameTeacher_SelectAllWhereDynamic = "[dbo].[Teacher_SelectAllWhereDynamic]";
+        public static string procNameTeacher_SelectDropDownListData = "[dbo].[Teacher_SelectDropDownListData]";
+        public static string procNameTeacher_Insert = "[dbo].[SystemTeacher_Insert]";
+        public static string procNameTeacher_Update = "[dbo].[SystemTeacher_Update]";
+        public static string procNameTeacher_Delete = "[dbo].[SystemTeacher_Delete]";
+        public static string procNameTeacher_SelectWithTeacherNameAndPass = "[dbo].[Teacher_SelectWithTeachernameAndPass]";
+
+        #endregion
+
+        #region Parameter
+        public static string prmName = "@name";
+        public static string prmId = "@id";
+        public static string prmNote = "@note";
+        public static string prmStatus = "@status";
+        public static string prmCreatedDate = "@createdDate";
+        public static string prmDescription = "@description";
+        public static string prmIsDeleted = "@isDeleted";
+        public static string prmCreatedUserId = "@createdUserId";
         
+        #endregion
+
+
         #region ShipmentDetail
 
         public static string procShipmentDetail_SelectByPrimaryKey = "[dbo].[ShipmentDetail_SelectByPrimaryKey]";
