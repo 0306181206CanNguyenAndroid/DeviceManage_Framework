@@ -60,7 +60,7 @@
             this.lblQLDeviceType.Location = new System.Drawing.Point(0, 0);
             this.lblQLDeviceType.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblQLDeviceType.Name = "lblQLDeviceType";
-            this.lblQLDeviceType.Size = new System.Drawing.Size(389, 50);
+            this.lblQLDeviceType.Size = new System.Drawing.Size(464, 60);
             this.lblQLDeviceType.TabIndex = 0;
             this.lblQLDeviceType.Text = "Quản Lý Loại Thiết Bị";
             // 
@@ -77,11 +77,11 @@
             this.gbQlDeviceType.Controls.Add(this.lblTenLoaiTB);
             this.gbQlDeviceType.Dock = System.Windows.Forms.DockStyle.Top;
             this.gbQlDeviceType.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.gbQlDeviceType.Location = new System.Drawing.Point(0, 50);
+            this.gbQlDeviceType.Location = new System.Drawing.Point(0, 60);
             this.gbQlDeviceType.Margin = new System.Windows.Forms.Padding(1);
             this.gbQlDeviceType.Name = "gbQlDeviceType";
             this.gbQlDeviceType.Padding = new System.Windows.Forms.Padding(1);
-            this.gbQlDeviceType.Size = new System.Drawing.Size(1140, 200);
+            this.gbQlDeviceType.Size = new System.Drawing.Size(1282, 250);
             this.gbQlDeviceType.TabIndex = 2;
             this.gbQlDeviceType.TabStop = false;
             this.gbQlDeviceType.Text = "Thông tin loại thiết bị";
@@ -93,10 +93,10 @@
             this.btn_AddSpecs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_AddSpecs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_AddSpecs.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btn_AddSpecs.Location = new System.Drawing.Point(971, 159);
+            this.btn_AddSpecs.Location = new System.Drawing.Point(1092, 199);
             this.btn_AddSpecs.Margin = new System.Windows.Forms.Padding(1);
             this.btn_AddSpecs.Name = "btn_AddSpecs";
-            this.btn_AddSpecs.Size = new System.Drawing.Size(135, 32);
+            this.btn_AddSpecs.Size = new System.Drawing.Size(152, 40);
             this.btn_AddSpecs.TabIndex = 9;
             this.toolTip1.SetToolTip(this.btn_AddSpecs, "Thêm thông số");
             this.btn_AddSpecs.UseVisualStyleBackColor = false;
@@ -104,20 +104,20 @@
             // 
             // rtbMotaLoaiTB
             // 
-            this.rtbMotaLoaiTB.Location = new System.Drawing.Point(197, 82);
+            this.rtbMotaLoaiTB.Location = new System.Drawing.Point(222, 102);
             this.rtbMotaLoaiTB.Margin = new System.Windows.Forms.Padding(1);
             this.rtbMotaLoaiTB.Name = "rtbMotaLoaiTB";
-            this.rtbMotaLoaiTB.Size = new System.Drawing.Size(203, 63);
+            this.rtbMotaLoaiTB.Size = new System.Drawing.Size(228, 78);
             this.rtbMotaLoaiTB.TabIndex = 3;
             this.rtbMotaLoaiTB.Text = "";
             // 
             // lblMoTaLoaiTB
             // 
             this.lblMoTaLoaiTB.AutoSize = true;
-            this.lblMoTaLoaiTB.Location = new System.Drawing.Point(59, 91);
+            this.lblMoTaLoaiTB.Location = new System.Drawing.Point(66, 114);
             this.lblMoTaLoaiTB.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblMoTaLoaiTB.Name = "lblMoTaLoaiTB";
-            this.lblMoTaLoaiTB.Size = new System.Drawing.Size(58, 20);
+            this.lblMoTaLoaiTB.Size = new System.Drawing.Size(72, 25);
             this.lblMoTaLoaiTB.TabIndex = 18;
             this.lblMoTaLoaiTB.Text = "Mô tả :";
             // 
@@ -125,11 +125,11 @@
             // 
             this.gbTimKiemLoaiTb.Controls.Add(this.btnTimKiemLoaiTb);
             this.gbTimKiemLoaiTb.Controls.Add(this.txtTiemKiemLoaiTb);
-            this.gbTimKiemLoaiTb.Location = new System.Drawing.Point(655, 14);
+            this.gbTimKiemLoaiTb.Location = new System.Drawing.Point(737, 18);
             this.gbTimKiemLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.gbTimKiemLoaiTb.Name = "gbTimKiemLoaiTb";
             this.gbTimKiemLoaiTb.Padding = new System.Windows.Forms.Padding(1);
-            this.gbTimKiemLoaiTb.Size = new System.Drawing.Size(451, 129);
+            this.gbTimKiemLoaiTb.Size = new System.Drawing.Size(507, 161);
             this.gbTimKiemLoaiTb.TabIndex = 17;
             this.gbTimKiemLoaiTb.TabStop = false;
             this.gbTimKiemLoaiTb.Text = "Tìm Kiếm";
@@ -137,36 +137,39 @@
             // btnTimKiemLoaiTb
             // 
             this.btnTimKiemLoaiTb.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiemLoaiTb.BackgroundImage = global::DeviceManage.Properties.Resources.search;
             this.btnTimKiemLoaiTb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTimKiemLoaiTb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTimKiemLoaiTb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnTimKiemLoaiTb.Location = new System.Drawing.Point(317, 27);
+            this.btnTimKiemLoaiTb.Location = new System.Drawing.Point(357, 34);
             this.btnTimKiemLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.btnTimKiemLoaiTb.Name = "btnTimKiemLoaiTb";
-            this.btnTimKiemLoaiTb.Size = new System.Drawing.Size(107, 32);
+            this.btnTimKiemLoaiTb.Size = new System.Drawing.Size(120, 40);
             this.btnTimKiemLoaiTb.TabIndex = 8;
             this.toolTip1.SetToolTip(this.btnTimKiemLoaiTb, "Tìm kiếm");
             this.btnTimKiemLoaiTb.UseVisualStyleBackColor = false;
+            this.btnTimKiemLoaiTb.Click += new System.EventHandler(this.btnTimKiemLoaiTb_Click);
             // 
             // txtTiemKiemLoaiTb
             // 
             this.txtTiemKiemLoaiTb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTiemKiemLoaiTb.Location = new System.Drawing.Point(25, 33);
+            this.txtTiemKiemLoaiTb.Location = new System.Drawing.Point(28, 41);
             this.txtTiemKiemLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.txtTiemKiemLoaiTb.Name = "txtTiemKiemLoaiTb";
-            this.txtTiemKiemLoaiTb.Size = new System.Drawing.Size(202, 27);
+            this.txtTiemKiemLoaiTb.Size = new System.Drawing.Size(227, 31);
             this.txtTiemKiemLoaiTb.TabIndex = 7;
             // 
             // btnXoaLoaiTb
             // 
             this.btnXoaLoaiTb.BackColor = System.Drawing.Color.Transparent;
+            this.btnXoaLoaiTb.BackgroundImage = global::DeviceManage.Properties.Resources.xoa;
             this.btnXoaLoaiTb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnXoaLoaiTb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaLoaiTb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnXoaLoaiTb.Location = new System.Drawing.Point(529, 112);
+            this.btnXoaLoaiTb.Location = new System.Drawing.Point(595, 140);
             this.btnXoaLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.btnXoaLoaiTb.Name = "btnXoaLoaiTb";
-            this.btnXoaLoaiTb.Size = new System.Drawing.Size(107, 32);
+            this.btnXoaLoaiTb.Size = new System.Drawing.Size(120, 40);
             this.btnXoaLoaiTb.TabIndex = 6;
             this.toolTip1.SetToolTip(this.btnXoaLoaiTb, "Xóa Loại Thiết Bị");
             this.btnXoaLoaiTb.UseVisualStyleBackColor = false;
@@ -175,13 +178,14 @@
             // btnSuaLoaiTb
             // 
             this.btnSuaLoaiTb.BackColor = System.Drawing.Color.Transparent;
+            this.btnSuaLoaiTb.BackgroundImage = global::DeviceManage.Properties.Resources.sua;
             this.btnSuaLoaiTb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnSuaLoaiTb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSuaLoaiTb.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnSuaLoaiTb.Location = new System.Drawing.Point(529, 67);
+            this.btnSuaLoaiTb.Location = new System.Drawing.Point(595, 84);
             this.btnSuaLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.btnSuaLoaiTb.Name = "btnSuaLoaiTb";
-            this.btnSuaLoaiTb.Size = new System.Drawing.Size(107, 32);
+            this.btnSuaLoaiTb.Size = new System.Drawing.Size(120, 40);
             this.btnSuaLoaiTb.TabIndex = 5;
             this.toolTip1.SetToolTip(this.btnSuaLoaiTb, "Cập nhật");
             this.btnSuaLoaiTb.UseVisualStyleBackColor = false;
@@ -190,13 +194,14 @@
             // btnThemLoaiTB
             // 
             this.btnThemLoaiTB.BackColor = System.Drawing.Color.Transparent;
+            this.btnThemLoaiTB.BackgroundImage = global::DeviceManage.Properties.Resources.Them;
             this.btnThemLoaiTB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnThemLoaiTB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThemLoaiTB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.btnThemLoaiTB.Location = new System.Drawing.Point(529, 14);
+            this.btnThemLoaiTB.Location = new System.Drawing.Point(595, 18);
             this.btnThemLoaiTB.Margin = new System.Windows.Forms.Padding(1);
             this.btnThemLoaiTB.Name = "btnThemLoaiTB";
-            this.btnThemLoaiTB.Size = new System.Drawing.Size(107, 32);
+            this.btnThemLoaiTB.Size = new System.Drawing.Size(120, 40);
             this.btnThemLoaiTB.TabIndex = 4;
             this.toolTip1.SetToolTip(this.btnThemLoaiTB, "Thêm Mới");
             this.btnThemLoaiTB.UseVisualStyleBackColor = false;
@@ -205,19 +210,19 @@
             // txtTenLoaiTB
             // 
             this.txtTenLoaiTB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTenLoaiTB.Location = new System.Drawing.Point(197, 40);
+            this.txtTenLoaiTB.Location = new System.Drawing.Point(222, 50);
             this.txtTenLoaiTB.Margin = new System.Windows.Forms.Padding(1);
             this.txtTenLoaiTB.Name = "txtTenLoaiTB";
-            this.txtTenLoaiTB.Size = new System.Drawing.Size(202, 27);
+            this.txtTenLoaiTB.Size = new System.Drawing.Size(227, 31);
             this.txtTenLoaiTB.TabIndex = 2;
             // 
             // lblTenLoaiTB
             // 
             this.lblTenLoaiTB.AutoSize = true;
-            this.lblTenLoaiTB.Location = new System.Drawing.Point(59, 45);
+            this.lblTenLoaiTB.Location = new System.Drawing.Point(66, 56);
             this.lblTenLoaiTB.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.lblTenLoaiTB.Name = "lblTenLoaiTB";
-            this.lblTenLoaiTB.Size = new System.Drawing.Size(133, 20);
+            this.lblTenLoaiTB.Size = new System.Drawing.Size(163, 25);
             this.lblTenLoaiTB.TabIndex = 1;
             this.lblTenLoaiTB.Text = "Tên Loại Thiết Bị :";
             // 
@@ -229,14 +234,14 @@
             this.DeviceTypeId,
             this.Column1,
             this.Column2});
-            this.dgvLoaiTb.Location = new System.Drawing.Point(10, 253);
+            this.dgvLoaiTb.Location = new System.Drawing.Point(11, 316);
             this.dgvLoaiTb.Margin = new System.Windows.Forms.Padding(1);
             this.dgvLoaiTb.Name = "dgvLoaiTb";
             this.dgvLoaiTb.ReadOnly = true;
             this.dgvLoaiTb.RowHeadersWidth = 62;
             this.dgvLoaiTb.RowTemplate.Height = 33;
             this.dgvLoaiTb.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvLoaiTb.Size = new System.Drawing.Size(389, 170);
+            this.dgvLoaiTb.Size = new System.Drawing.Size(438, 212);
             this.dgvLoaiTb.TabIndex = 3;
             this.dgvLoaiTb.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLoaiTb_CellClick);
             // 
@@ -267,16 +272,17 @@
             // 
             // frmQuanLyLoaiThietBi
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1140, 433);
+            this.ClientSize = new System.Drawing.Size(1282, 541);
             this.Controls.Add(this.dgvLoaiTb);
             this.Controls.Add(this.gbQlDeviceType);
             this.Controls.Add(this.lblQLDeviceType);
             this.Margin = new System.Windows.Forms.Padding(1);
-            this.MinimumSize = new System.Drawing.Size(1158, 455);
+            this.MinimumSize = new System.Drawing.Size(1300, 555);
             this.Name = "frmQuanLyLoaiThietBi";
             this.Text = "frmQuanLyLoaiThietBi";
+            this.Load += new System.EventHandler(this.frmQuanLyLoaiThietBi_Load);
             this.gbQlDeviceType.ResumeLayout(false);
             this.gbQlDeviceType.PerformLayout();
             this.gbTimKiemLoaiTb.ResumeLayout(false);

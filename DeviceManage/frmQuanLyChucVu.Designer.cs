@@ -28,182 +28,200 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyChucVu));
-            grbChuVu = new System.Windows.Forms.GroupBox();
-            btnXoaChucVu = new System.Windows.Forms.Button();
-            btnSuaChucVu = new System.Windows.Forms.Button();
-            btnThemChucVu = new System.Windows.Forms.Button();
-            gbTimKiemChucVu = new System.Windows.Forms.GroupBox();
-            btnTimKiemChucVu = new System.Windows.Forms.Button();
-            txtTiemKiemChucVu = new System.Windows.Forms.TextBox();
-            txtTenChucVu = new System.Windows.Forms.TextBox();
-            lblTenChucVu = new System.Windows.Forms.Label();
-            dgvChucVu = new System.Windows.Forms.DataGridView();
-            PositionId = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            toolTip1 = new System.Windows.Forms.ToolTip(components);
-            grbChuVu.SuspendLayout();
-            gbTimKiemChucVu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvChucVu).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.grbChuVu = new System.Windows.Forms.GroupBox();
+            this.btnXoaChucVu = new System.Windows.Forms.Button();
+            this.btnSuaChucVu = new System.Windows.Forms.Button();
+            this.btnThemChucVu = new System.Windows.Forms.Button();
+            this.gbTimKiemChucVu = new System.Windows.Forms.GroupBox();
+            this.btnTimKiemChucVu = new System.Windows.Forms.Button();
+            this.txtTiemKiemChucVu = new System.Windows.Forms.TextBox();
+            this.txtTenChucVu = new System.Windows.Forms.TextBox();
+            this.lblTenChucVu = new System.Windows.Forms.Label();
+            this.dgvChucVu = new System.Windows.Forms.DataGridView();
+            this.PositionId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.grbChuVu.SuspendLayout();
+            this.gbTimKiemChucVu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChucVu)).BeginInit();
+            this.SuspendLayout();
             // 
             // grbChuVu
             // 
-            grbChuVu.Controls.Add(btnXoaChucVu);
-            grbChuVu.Controls.Add(btnSuaChucVu);
-            grbChuVu.Controls.Add(btnThemChucVu);
-            grbChuVu.Controls.Add(gbTimKiemChucVu);
-            grbChuVu.Controls.Add(txtTenChucVu);
-            grbChuVu.Controls.Add(lblTenChucVu);
-            grbChuVu.Dock = System.Windows.Forms.DockStyle.Top;
-            grbChuVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            grbChuVu.Location = new System.Drawing.Point(0, 0);
-            grbChuVu.Name = "grbChuVu";
-            grbChuVu.Size = new System.Drawing.Size(1101, 240);
-            grbChuVu.TabIndex = 0;
-            grbChuVu.TabStop = false;
-            grbChuVu.Text = "Thông Tin Chức Vụ";
+            this.grbChuVu.Controls.Add(this.btnXoaChucVu);
+            this.grbChuVu.Controls.Add(this.btnSuaChucVu);
+            this.grbChuVu.Controls.Add(this.btnThemChucVu);
+            this.grbChuVu.Controls.Add(this.gbTimKiemChucVu);
+            this.grbChuVu.Controls.Add(this.txtTenChucVu);
+            this.grbChuVu.Controls.Add(this.lblTenChucVu);
+            this.grbChuVu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.grbChuVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.grbChuVu.Location = new System.Drawing.Point(0, 0);
+            this.grbChuVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbChuVu.Name = "grbChuVu";
+            this.grbChuVu.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.grbChuVu.Size = new System.Drawing.Size(991, 192);
+            this.grbChuVu.TabIndex = 0;
+            this.grbChuVu.TabStop = false;
+            this.grbChuVu.Text = "Thông Tin Chức Vụ";
             // 
             // btnXoaChucVu
             // 
-            btnXoaChucVu.BackColor = System.Drawing.Color.Transparent;
-            btnXoaChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnXoaChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnXoaChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnXoaChucVu.Location = new System.Drawing.Point(358, 146);
-            btnXoaChucVu.Name = "btnXoaChucVu";
-            btnXoaChucVu.Size = new System.Drawing.Size(134, 50);
-            btnXoaChucVu.TabIndex = 4;
-            toolTip1.SetToolTip(btnXoaChucVu, "Xóa");
-            btnXoaChucVu.UseVisualStyleBackColor = false;
-            btnXoaChucVu.Click += btnXoaChucVu_Click;
+            this.btnXoaChucVu.BackColor = System.Drawing.Color.Transparent;
+            this.btnXoaChucVu.BackgroundImage = global::DeviceManage.Properties.Resources.xoa;
+            this.btnXoaChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnXoaChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXoaChucVu.Location = new System.Drawing.Point(322, 117);
+            this.btnXoaChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoaChucVu.Name = "btnXoaChucVu";
+            this.btnXoaChucVu.Size = new System.Drawing.Size(121, 40);
+            this.btnXoaChucVu.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.btnXoaChucVu, "Xóa");
+            this.btnXoaChucVu.UseVisualStyleBackColor = false;
+            this.btnXoaChucVu.Click += new System.EventHandler(this.btnXoaChucVu_Click);
             // 
             // btnSuaChucVu
             // 
-            btnSuaChucVu.BackColor = System.Drawing.Color.Transparent;
-            btnSuaChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnSuaChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnSuaChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnSuaChucVu.Location = new System.Drawing.Point(182, 146);
-            btnSuaChucVu.Name = "btnSuaChucVu";
-            btnSuaChucVu.Size = new System.Drawing.Size(134, 50);
-            btnSuaChucVu.TabIndex = 3;
-            toolTip1.SetToolTip(btnSuaChucVu, "Cập nhật");
-            btnSuaChucVu.UseVisualStyleBackColor = false;
-            btnSuaChucVu.Click += btnSuaChucVu_Click;
+            this.btnSuaChucVu.BackColor = System.Drawing.Color.Transparent;
+            this.btnSuaChucVu.BackgroundImage = global::DeviceManage.Properties.Resources.sua;
+            this.btnSuaChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSuaChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSuaChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnSuaChucVu.Location = new System.Drawing.Point(164, 117);
+            this.btnSuaChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSuaChucVu.Name = "btnSuaChucVu";
+            this.btnSuaChucVu.Size = new System.Drawing.Size(121, 40);
+            this.btnSuaChucVu.TabIndex = 3;
+            this.toolTip1.SetToolTip(this.btnSuaChucVu, "Cập nhật");
+            this.btnSuaChucVu.UseVisualStyleBackColor = false;
+            this.btnSuaChucVu.Click += new System.EventHandler(this.btnSuaChucVu_Click);
             // 
             // btnThemChucVu
             // 
-            btnThemChucVu.BackColor = System.Drawing.Color.Transparent;
-            btnThemChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnThemChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnThemChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnThemChucVu.Location = new System.Drawing.Point(12, 146);
-            btnThemChucVu.Name = "btnThemChucVu";
-            btnThemChucVu.Size = new System.Drawing.Size(134, 50);
-            btnThemChucVu.TabIndex = 2;
-            toolTip1.SetToolTip(btnThemChucVu, "Thêm Mới");
-            btnThemChucVu.UseVisualStyleBackColor = false;
-            btnThemChucVu.Click += btnThemChucVu_Click;
+            this.btnThemChucVu.BackColor = System.Drawing.Color.Transparent;
+            this.btnThemChucVu.BackgroundImage = global::DeviceManage.Properties.Resources.Them;
+            this.btnThemChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThemChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnThemChucVu.Location = new System.Drawing.Point(11, 117);
+            this.btnThemChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThemChucVu.Name = "btnThemChucVu";
+            this.btnThemChucVu.Size = new System.Drawing.Size(121, 40);
+            this.btnThemChucVu.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.btnThemChucVu, "Thêm Mới");
+            this.btnThemChucVu.UseVisualStyleBackColor = false;
+            this.btnThemChucVu.Click += new System.EventHandler(this.btnThemChucVu_Click);
             // 
             // gbTimKiemChucVu
             // 
-            gbTimKiemChucVu.Controls.Add(btnTimKiemChucVu);
-            gbTimKiemChucVu.Controls.Add(txtTiemKiemChucVu);
-            gbTimKiemChucVu.Location = new System.Drawing.Point(512, 49);
-            gbTimKiemChucVu.Name = "gbTimKiemChucVu";
-            gbTimKiemChucVu.Size = new System.Drawing.Size(560, 147);
-            gbTimKiemChucVu.TabIndex = 18;
-            gbTimKiemChucVu.TabStop = false;
-            gbTimKiemChucVu.Text = "Tìm Kiếm";
+            this.gbTimKiemChucVu.Controls.Add(this.btnTimKiemChucVu);
+            this.gbTimKiemChucVu.Controls.Add(this.txtTiemKiemChucVu);
+            this.gbTimKiemChucVu.Location = new System.Drawing.Point(461, 39);
+            this.gbTimKiemChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbTimKiemChucVu.Name = "gbTimKiemChucVu";
+            this.gbTimKiemChucVu.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbTimKiemChucVu.Size = new System.Drawing.Size(504, 118);
+            this.gbTimKiemChucVu.TabIndex = 18;
+            this.gbTimKiemChucVu.TabStop = false;
+            this.gbTimKiemChucVu.Text = "Tìm Kiếm";
             // 
             // btnTimKiemChucVu
             // 
-            btnTimKiemChucVu.BackColor = System.Drawing.Color.Transparent;
-            btnTimKiemChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnTimKiemChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnTimKiemChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnTimKiemChucVu.Location = new System.Drawing.Point(396, 42);
-            btnTimKiemChucVu.Name = "btnTimKiemChucVu";
-            btnTimKiemChucVu.Size = new System.Drawing.Size(134, 50);
-            btnTimKiemChucVu.TabIndex = 6;
-            toolTip1.SetToolTip(btnTimKiemChucVu, "Tìm kiếm");
-            btnTimKiemChucVu.UseVisualStyleBackColor = false;
-            btnTimKiemChucVu.Click += btnTimKiemChucVu_Click;
+            this.btnTimKiemChucVu.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiemChucVu.BackgroundImage = global::DeviceManage.Properties.Resources.search;
+            this.btnTimKiemChucVu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTimKiemChucVu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTimKiemChucVu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnTimKiemChucVu.Location = new System.Drawing.Point(356, 34);
+            this.btnTimKiemChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTimKiemChucVu.Name = "btnTimKiemChucVu";
+            this.btnTimKiemChucVu.Size = new System.Drawing.Size(121, 40);
+            this.btnTimKiemChucVu.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.btnTimKiemChucVu, "Tìm kiếm");
+            this.btnTimKiemChucVu.UseVisualStyleBackColor = false;
+            this.btnTimKiemChucVu.Click += new System.EventHandler(this.btnTimKiemChucVu_Click);
             // 
             // txtTiemKiemChucVu
             // 
-            txtTiemKiemChucVu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            txtTiemKiemChucVu.Location = new System.Drawing.Point(33, 53);
-            txtTiemKiemChucVu.Name = "txtTiemKiemChucVu";
-            txtTiemKiemChucVu.Size = new System.Drawing.Size(252, 31);
-            txtTiemKiemChucVu.TabIndex = 5;
+            this.txtTiemKiemChucVu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTiemKiemChucVu.Location = new System.Drawing.Point(30, 42);
+            this.txtTiemKiemChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTiemKiemChucVu.Name = "txtTiemKiemChucVu";
+            this.txtTiemKiemChucVu.Size = new System.Drawing.Size(227, 31);
+            this.txtTiemKiemChucVu.TabIndex = 5;
             // 
             // txtTenChucVu
             // 
-            txtTenChucVu.Location = new System.Drawing.Point(182, 55);
-            txtTenChucVu.Name = "txtTenChucVu";
-            txtTenChucVu.Size = new System.Drawing.Size(200, 31);
-            txtTenChucVu.TabIndex = 1;
+            this.txtTenChucVu.Location = new System.Drawing.Point(164, 44);
+            this.txtTenChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTenChucVu.Name = "txtTenChucVu";
+            this.txtTenChucVu.Size = new System.Drawing.Size(180, 31);
+            this.txtTenChucVu.TabIndex = 1;
             // 
             // lblTenChucVu
             // 
-            lblTenChucVu.AutoSize = true;
-            lblTenChucVu.Location = new System.Drawing.Point(18, 55);
-            lblTenChucVu.Name = "lblTenChucVu";
-            lblTenChucVu.Size = new System.Drawing.Size(128, 25);
-            lblTenChucVu.TabIndex = 0;
-            lblTenChucVu.Text = "Tên Chức Vụ :";
+            this.lblTenChucVu.AutoSize = true;
+            this.lblTenChucVu.Location = new System.Drawing.Point(16, 44);
+            this.lblTenChucVu.Name = "lblTenChucVu";
+            this.lblTenChucVu.Size = new System.Drawing.Size(128, 25);
+            this.lblTenChucVu.TabIndex = 0;
+            this.lblTenChucVu.Text = "Tên Chức Vụ :";
             // 
             // dgvChucVu
             // 
-            dgvChucVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvChucVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { PositionId, Column2 });
-            dgvChucVu.Location = new System.Drawing.Point(0, 246);
-            dgvChucVu.Name = "dgvChucVu";
-            dgvChucVu.ReadOnly = true;
-            dgvChucVu.RowHeadersWidth = 62;
-            dgvChucVu.RowTemplate.Height = 33;
-            dgvChucVu.Size = new System.Drawing.Size(267, 225);
-            dgvChucVu.TabIndex = 1;
-            dgvChucVu.CellClick += dgvChucVu_CellClick;
+            this.dgvChucVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvChucVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.PositionId,
+            this.Column2});
+            this.dgvChucVu.Location = new System.Drawing.Point(0, 197);
+            this.dgvChucVu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvChucVu.Name = "dgvChucVu";
+            this.dgvChucVu.ReadOnly = true;
+            this.dgvChucVu.RowHeadersWidth = 62;
+            this.dgvChucVu.RowTemplate.Height = 33;
+            this.dgvChucVu.Size = new System.Drawing.Size(240, 180);
+            this.dgvChucVu.TabIndex = 1;
+            this.dgvChucVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvChucVu_CellClick);
             // 
             // PositionId
             // 
-            PositionId.DataPropertyName = "Id";
-            PositionId.HeaderText = "Id";
-            PositionId.MinimumWidth = 8;
-            PositionId.Name = "PositionId";
-            PositionId.ReadOnly = true;
-            PositionId.Visible = false;
-            PositionId.Width = 150;
+            this.PositionId.DataPropertyName = "Id";
+            this.PositionId.HeaderText = "Id";
+            this.PositionId.MinimumWidth = 8;
+            this.PositionId.Name = "PositionId";
+            this.PositionId.ReadOnly = true;
+            this.PositionId.Visible = false;
+            this.PositionId.Width = 150;
             // 
             // Column2
             // 
-            Column2.DataPropertyName = "Name";
-            Column2.HeaderText = "Tên Chức Vụ";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            Column2.ReadOnly = true;
-            Column2.Width = 200;
+            this.Column2.DataPropertyName = "Name";
+            this.Column2.HeaderText = "Tên Chức Vụ";
+            this.Column2.MinimumWidth = 8;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 200;
             // 
             // frmQuanLyChucVu
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1101, 483);
-            Controls.Add(dgvChucVu);
-            Controls.Add(grbChuVu);
-            Name = "frmQuanLyChucVu";
-            Text = "Quản Lý Chức Vụ";
-            Load += frmQuanLyChucVu_Load;
-            grbChuVu.ResumeLayout(false);
-            grbChuVu.PerformLayout();
-            gbTimKiemChucVu.ResumeLayout(false);
-            gbTimKiemChucVu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvChucVu).EndInit();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(991, 386);
+            this.Controls.Add(this.dgvChucVu);
+            this.Controls.Add(this.grbChuVu);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "frmQuanLyChucVu";
+            this.Text = "Quản Lý Chức Vụ";
+            this.Load += new System.EventHandler(this.frmQuanLyChucVu_Load);
+            this.grbChuVu.ResumeLayout(false);
+            this.grbChuVu.PerformLayout();
+            this.gbTimKiemChucVu.ResumeLayout(false);
+            this.gbTimKiemChucVu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvChucVu)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
