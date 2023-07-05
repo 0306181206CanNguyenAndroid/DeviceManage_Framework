@@ -1,25 +1,93 @@
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.exe.config
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.exe
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.pdb
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.dll
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.dll
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\QRCoder.dll
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.dll
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.pdb
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.dll.config
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.pdb
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.dll.config
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.pdb
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.dll.config
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.AssemblyReference.cache
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.DeviceDetail.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.DeviceMangement.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyLoaiThietBi.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmTrangChu.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmTrangChuGiaoVien.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.Properties.Resources.resources
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.GenerateResource.cache
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.CoreCompileInputs.cache
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.CopyComplete
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.exe
-C:\Users\This PC\OneDrive\Máy tính\DeviceManage\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.pdb
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\EntityFramework.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\EntityFramework.SqlServer.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\QRCoder.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\EnvDTE.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\stdole.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.pdb
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\BUS.dll.config
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.pdb
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DTO.dll.config
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\EntityFramework.xml
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\EntityFramework.SqlServer.xml
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.pdb
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DAO.dll.config
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.AssemblyReference.cache
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.SuggestedBindingRedirects.cache
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.DeviceDetail.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.DeviceMangement.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmBaoCaoThongKe.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmLogin.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyChucVu.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyGiaoVien.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyKhoa.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyLoaiThietBi.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyPhongMay.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyTaiKhoan.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyThanhLy.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmQuanLyThuongHieu.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmTaoTaiKhoan.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmTrangChu.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.frmTrangChuGiaoVien.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.Properties.Resources.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.reportThietBiTheoPhong.resources
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.GenerateResource.cache
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.CoreCompileInputs.cache
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.csproj.CopyComplete
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.exe
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\obj\Debug\DeviceManage.pdb
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.exe.config
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.exe
+D:\Thanh Binh\DeviceManage_Framework\DeviceManage\bin\Debug\DeviceManage.pdb
