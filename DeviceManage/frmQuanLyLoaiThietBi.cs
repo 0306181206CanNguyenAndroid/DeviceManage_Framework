@@ -168,5 +168,10 @@ namespace DeviceManage
                 addSpecs.Show();
             }
         }
+
+        private void btnTimKiemLoaiTb_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

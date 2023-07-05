@@ -28,228 +28,247 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmQuanLyThuongHieu));
-            label1 = new System.Windows.Forms.Label();
-            qbThuongHieu = new System.Windows.Forms.GroupBox();
-            rtbDiaChi = new System.Windows.Forms.RichTextBox();
-            lblDiaChi = new System.Windows.Forms.Label();
-            gbTimKiemThuongHieu = new System.Windows.Forms.GroupBox();
-            btnTimKiemThuongHieu = new System.Windows.Forms.Button();
-            txtTiemKiemThuongHieu = new System.Windows.Forms.TextBox();
-            btnXoaThuongHieu = new System.Windows.Forms.Button();
-            btnSuaThuongHieu = new System.Windows.Forms.Button();
-            btnThemThuongHieu = new System.Windows.Forms.Button();
-            txtTenThuongHieu = new System.Windows.Forms.TextBox();
-            lblTenThuongHieu = new System.Windows.Forms.Label();
-            dgvThuongHieu = new System.Windows.Forms.DataGridView();
-            Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            BrandName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            toolTip1 = new System.Windows.Forms.ToolTip(components);
-            qbThuongHieu.SuspendLayout();
-            gbTimKiemThuongHieu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvThuongHieu).BeginInit();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.qbThuongHieu = new System.Windows.Forms.GroupBox();
+            this.rtbDiaChi = new System.Windows.Forms.RichTextBox();
+            this.lblDiaChi = new System.Windows.Forms.Label();
+            this.gbTimKiemThuongHieu = new System.Windows.Forms.GroupBox();
+            this.btnTimKiemThuongHieu = new System.Windows.Forms.Button();
+            this.txtTiemKiemThuongHieu = new System.Windows.Forms.TextBox();
+            this.btnXoaThuongHieu = new System.Windows.Forms.Button();
+            this.btnSuaThuongHieu = new System.Windows.Forms.Button();
+            this.btnThemThuongHieu = new System.Windows.Forms.Button();
+            this.txtTenThuongHieu = new System.Windows.Forms.TextBox();
+            this.lblTenThuongHieu = new System.Windows.Forms.Label();
+            this.dgvThuongHieu = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BrandName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.qbThuongHieu.SuspendLayout();
+            this.gbTimKiemThuongHieu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvThuongHieu)).BeginInit();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Dock = System.Windows.Forms.DockStyle.Top;
-            label1.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label1.Location = new System.Drawing.Point(0, 0);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(491, 60);
-            label1.TabIndex = 0;
-            label1.Text = "Quản Lý Thương Hiệu ";
+            this.label1.AutoSize = true;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(491, 60);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Quản Lý Thương Hiệu ";
             // 
             // qbThuongHieu
             // 
-            qbThuongHieu.Controls.Add(rtbDiaChi);
-            qbThuongHieu.Controls.Add(lblDiaChi);
-            qbThuongHieu.Controls.Add(gbTimKiemThuongHieu);
-            qbThuongHieu.Controls.Add(btnXoaThuongHieu);
-            qbThuongHieu.Controls.Add(btnSuaThuongHieu);
-            qbThuongHieu.Controls.Add(btnThemThuongHieu);
-            qbThuongHieu.Controls.Add(txtTenThuongHieu);
-            qbThuongHieu.Controls.Add(lblTenThuongHieu);
-            qbThuongHieu.Dock = System.Windows.Forms.DockStyle.Top;
-            qbThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            qbThuongHieu.Location = new System.Drawing.Point(0, 60);
-            qbThuongHieu.Name = "qbThuongHieu";
-            qbThuongHieu.Size = new System.Drawing.Size(1263, 313);
-            qbThuongHieu.TabIndex = 1;
-            qbThuongHieu.TabStop = false;
-            qbThuongHieu.Text = "Thông tin thương hiệu";
+            this.qbThuongHieu.Controls.Add(this.rtbDiaChi);
+            this.qbThuongHieu.Controls.Add(this.lblDiaChi);
+            this.qbThuongHieu.Controls.Add(this.gbTimKiemThuongHieu);
+            this.qbThuongHieu.Controls.Add(this.btnXoaThuongHieu);
+            this.qbThuongHieu.Controls.Add(this.btnSuaThuongHieu);
+            this.qbThuongHieu.Controls.Add(this.btnThemThuongHieu);
+            this.qbThuongHieu.Controls.Add(this.txtTenThuongHieu);
+            this.qbThuongHieu.Controls.Add(this.lblTenThuongHieu);
+            this.qbThuongHieu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.qbThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.qbThuongHieu.Location = new System.Drawing.Point(0, 60);
+            this.qbThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.qbThuongHieu.Name = "qbThuongHieu";
+            this.qbThuongHieu.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.qbThuongHieu.Size = new System.Drawing.Size(1137, 250);
+            this.qbThuongHieu.TabIndex = 1;
+            this.qbThuongHieu.TabStop = false;
+            this.qbThuongHieu.Text = "Thông tin thương hiệu";
             // 
             // rtbDiaChi
             // 
-            rtbDiaChi.Location = new System.Drawing.Point(221, 127);
-            rtbDiaChi.Name = "rtbDiaChi";
-            rtbDiaChi.Size = new System.Drawing.Size(253, 96);
-            rtbDiaChi.TabIndex = 3;
-            rtbDiaChi.Text = "";
+            this.rtbDiaChi.Location = new System.Drawing.Point(199, 102);
+            this.rtbDiaChi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rtbDiaChi.Name = "rtbDiaChi";
+            this.rtbDiaChi.Size = new System.Drawing.Size(228, 78);
+            this.rtbDiaChi.TabIndex = 3;
+            this.rtbDiaChi.Text = "";
             // 
             // lblDiaChi
             // 
-            lblDiaChi.AutoSize = true;
-            lblDiaChi.Location = new System.Drawing.Point(50, 143);
-            lblDiaChi.Name = "lblDiaChi";
-            lblDiaChi.Size = new System.Drawing.Size(82, 25);
-            lblDiaChi.TabIndex = 18;
-            lblDiaChi.Text = "Địa Chỉ :";
+            this.lblDiaChi.AutoSize = true;
+            this.lblDiaChi.Location = new System.Drawing.Point(45, 114);
+            this.lblDiaChi.Name = "lblDiaChi";
+            this.lblDiaChi.Size = new System.Drawing.Size(82, 25);
+            this.lblDiaChi.TabIndex = 18;
+            this.lblDiaChi.Text = "Địa Chỉ :";
             // 
             // gbTimKiemThuongHieu
             // 
-            gbTimKiemThuongHieu.Controls.Add(btnTimKiemThuongHieu);
-            gbTimKiemThuongHieu.Controls.Add(txtTiemKiemThuongHieu);
-            gbTimKiemThuongHieu.Location = new System.Drawing.Point(819, 23);
-            gbTimKiemThuongHieu.Name = "gbTimKiemThuongHieu";
-            gbTimKiemThuongHieu.Size = new System.Drawing.Size(564, 202);
-            gbTimKiemThuongHieu.TabIndex = 17;
-            gbTimKiemThuongHieu.TabStop = false;
-            gbTimKiemThuongHieu.Text = "Tìm Kiếm";
+            this.gbTimKiemThuongHieu.Controls.Add(this.btnTimKiemThuongHieu);
+            this.gbTimKiemThuongHieu.Controls.Add(this.txtTiemKiemThuongHieu);
+            this.gbTimKiemThuongHieu.Location = new System.Drawing.Point(737, 18);
+            this.gbTimKiemThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbTimKiemThuongHieu.Name = "gbTimKiemThuongHieu";
+            this.gbTimKiemThuongHieu.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gbTimKiemThuongHieu.Size = new System.Drawing.Size(508, 162);
+            this.gbTimKiemThuongHieu.TabIndex = 17;
+            this.gbTimKiemThuongHieu.TabStop = false;
+            this.gbTimKiemThuongHieu.Text = "Tìm Kiếm";
             // 
             // btnTimKiemThuongHieu
             // 
-            btnTimKiemThuongHieu.BackColor = System.Drawing.Color.Transparent;
-            btnTimKiemThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnTimKiemThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnTimKiemThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnTimKiemThuongHieu.Location = new System.Drawing.Point(396, 42);
-            btnTimKiemThuongHieu.Name = "btnTimKiemThuongHieu";
-            btnTimKiemThuongHieu.Size = new System.Drawing.Size(134, 50);
-            btnTimKiemThuongHieu.TabIndex = 8;
-            toolTip1.SetToolTip(btnTimKiemThuongHieu, "Tìm Kiếm");
-            btnTimKiemThuongHieu.UseVisualStyleBackColor = false;
-            btnTimKiemThuongHieu.Click += btnTimKiemThuongHieu_Click;
+            this.btnTimKiemThuongHieu.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiemThuongHieu.BackgroundImage = global::DeviceManage.Properties.Resources.search;
+            this.btnTimKiemThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTimKiemThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTimKiemThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnTimKiemThuongHieu.Location = new System.Drawing.Point(356, 34);
+            this.btnTimKiemThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnTimKiemThuongHieu.Name = "btnTimKiemThuongHieu";
+            this.btnTimKiemThuongHieu.Size = new System.Drawing.Size(121, 40);
+            this.btnTimKiemThuongHieu.TabIndex = 8;
+            this.toolTip1.SetToolTip(this.btnTimKiemThuongHieu, "Tìm Kiếm");
+            this.btnTimKiemThuongHieu.UseVisualStyleBackColor = false;
+            this.btnTimKiemThuongHieu.Click += new System.EventHandler(this.btnTimKiemThuongHieu_Click);
             // 
             // txtTiemKiemThuongHieu
             // 
-            txtTiemKiemThuongHieu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            txtTiemKiemThuongHieu.Location = new System.Drawing.Point(33, 53);
-            txtTiemKiemThuongHieu.Name = "txtTiemKiemThuongHieu";
-            txtTiemKiemThuongHieu.Size = new System.Drawing.Size(252, 31);
-            txtTiemKiemThuongHieu.TabIndex = 7;
+            this.txtTiemKiemThuongHieu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTiemKiemThuongHieu.Location = new System.Drawing.Point(30, 42);
+            this.txtTiemKiemThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTiemKiemThuongHieu.Name = "txtTiemKiemThuongHieu";
+            this.txtTiemKiemThuongHieu.Size = new System.Drawing.Size(227, 31);
+            this.txtTiemKiemThuongHieu.TabIndex = 7;
             // 
             // btnXoaThuongHieu
             // 
-            btnXoaThuongHieu.BackColor = System.Drawing.Color.Transparent;
-            btnXoaThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnXoaThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnXoaThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnXoaThuongHieu.Location = new System.Drawing.Point(663, 175);
-            btnXoaThuongHieu.Name = "btnXoaThuongHieu";
-            btnXoaThuongHieu.Size = new System.Drawing.Size(134, 50);
-            btnXoaThuongHieu.TabIndex = 6;
-            toolTip1.SetToolTip(btnXoaThuongHieu, "Xóa");
-            btnXoaThuongHieu.UseVisualStyleBackColor = false;
-            btnXoaThuongHieu.Click += btnXoaThuongHieu_Click;
+            this.btnXoaThuongHieu.BackColor = System.Drawing.Color.Transparent;
+            this.btnXoaThuongHieu.BackgroundImage = global::DeviceManage.Properties.Resources.xoa;
+            this.btnXoaThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnXoaThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnXoaThuongHieu.Location = new System.Drawing.Point(597, 140);
+            this.btnXoaThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnXoaThuongHieu.Name = "btnXoaThuongHieu";
+            this.btnXoaThuongHieu.Size = new System.Drawing.Size(121, 40);
+            this.btnXoaThuongHieu.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.btnXoaThuongHieu, "Xóa");
+            this.btnXoaThuongHieu.UseVisualStyleBackColor = false;
+            this.btnXoaThuongHieu.Click += new System.EventHandler(this.btnXoaThuongHieu_Click);
             // 
             // btnSuaThuongHieu
             // 
-            btnSuaThuongHieu.BackColor = System.Drawing.Color.Transparent;
-            btnSuaThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnSuaThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnSuaThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnSuaThuongHieu.Location = new System.Drawing.Point(663, 102);
-            btnSuaThuongHieu.Name = "btnSuaThuongHieu";
-            btnSuaThuongHieu.Size = new System.Drawing.Size(134, 50);
-            btnSuaThuongHieu.TabIndex = 5;
-            toolTip1.SetToolTip(btnSuaThuongHieu, "Cập Nhật");
-            btnSuaThuongHieu.UseVisualStyleBackColor = false;
-            btnSuaThuongHieu.Click += btnSuaThuongHieu_Click;
+            this.btnSuaThuongHieu.BackColor = System.Drawing.Color.Transparent;
+            this.btnSuaThuongHieu.BackgroundImage = global::DeviceManage.Properties.Resources.sua;
+            this.btnSuaThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSuaThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSuaThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnSuaThuongHieu.Location = new System.Drawing.Point(597, 82);
+            this.btnSuaThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSuaThuongHieu.Name = "btnSuaThuongHieu";
+            this.btnSuaThuongHieu.Size = new System.Drawing.Size(121, 40);
+            this.btnSuaThuongHieu.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.btnSuaThuongHieu, "Cập Nhật");
+            this.btnSuaThuongHieu.UseVisualStyleBackColor = false;
+            this.btnSuaThuongHieu.Click += new System.EventHandler(this.btnSuaThuongHieu_Click);
             // 
             // btnThemThuongHieu
             // 
-            btnThemThuongHieu.BackColor = System.Drawing.Color.Transparent;
-            btnThemThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            btnThemThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            btnThemThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            btnThemThuongHieu.Location = new System.Drawing.Point(663, 23);
-            btnThemThuongHieu.Name = "btnThemThuongHieu";
-            btnThemThuongHieu.Size = new System.Drawing.Size(134, 50);
-            btnThemThuongHieu.TabIndex = 4;
-            toolTip1.SetToolTip(btnThemThuongHieu, "Thêm Mới");
-            btnThemThuongHieu.UseVisualStyleBackColor = false;
-            btnThemThuongHieu.Click += btnThemThuongHieu_Click;
+            this.btnThemThuongHieu.BackColor = System.Drawing.Color.Transparent;
+            this.btnThemThuongHieu.BackgroundImage = global::DeviceManage.Properties.Resources.Them;
+            this.btnThemThuongHieu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnThemThuongHieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemThuongHieu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.btnThemThuongHieu.Location = new System.Drawing.Point(597, 18);
+            this.btnThemThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnThemThuongHieu.Name = "btnThemThuongHieu";
+            this.btnThemThuongHieu.Size = new System.Drawing.Size(121, 40);
+            this.btnThemThuongHieu.TabIndex = 4;
+            this.toolTip1.SetToolTip(this.btnThemThuongHieu, "Thêm Mới");
+            this.btnThemThuongHieu.UseVisualStyleBackColor = false;
+            this.btnThemThuongHieu.Click += new System.EventHandler(this.btnThemThuongHieu_Click);
             // 
             // txtTenThuongHieu
             // 
-            txtTenThuongHieu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            txtTenThuongHieu.Location = new System.Drawing.Point(221, 63);
-            txtTenThuongHieu.Name = "txtTenThuongHieu";
-            txtTenThuongHieu.Size = new System.Drawing.Size(252, 31);
-            txtTenThuongHieu.TabIndex = 2;
+            this.txtTenThuongHieu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTenThuongHieu.Location = new System.Drawing.Point(199, 50);
+            this.txtTenThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTenThuongHieu.Name = "txtTenThuongHieu";
+            this.txtTenThuongHieu.Size = new System.Drawing.Size(227, 31);
+            this.txtTenThuongHieu.TabIndex = 2;
             // 
             // lblTenThuongHieu
             // 
-            lblTenThuongHieu.AutoSize = true;
-            lblTenThuongHieu.Location = new System.Drawing.Point(50, 70);
-            lblTenThuongHieu.Name = "lblTenThuongHieu";
-            lblTenThuongHieu.Size = new System.Drawing.Size(169, 25);
-            lblTenThuongHieu.TabIndex = 1;
-            lblTenThuongHieu.Text = "Tên Thương Hiệu :";
+            this.lblTenThuongHieu.AutoSize = true;
+            this.lblTenThuongHieu.Location = new System.Drawing.Point(45, 56);
+            this.lblTenThuongHieu.Name = "lblTenThuongHieu";
+            this.lblTenThuongHieu.Size = new System.Drawing.Size(169, 25);
+            this.lblTenThuongHieu.TabIndex = 1;
+            this.lblTenThuongHieu.Text = "Tên Thương Hiệu :";
             // 
             // dgvThuongHieu
             // 
-            dgvThuongHieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvThuongHieu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { Id, BrandName, Address });
-            dgvThuongHieu.Location = new System.Drawing.Point(0, 388);
-            dgvThuongHieu.Name = "dgvThuongHieu";
-            dgvThuongHieu.ReadOnly = true;
-            dgvThuongHieu.RowHeadersWidth = 62;
-            dgvThuongHieu.RowTemplate.Height = 33;
-            dgvThuongHieu.Size = new System.Drawing.Size(473, 312);
-            dgvThuongHieu.TabIndex = 3;
-            dgvThuongHieu.CellClick += dgvThuongHieu_CellClick;
+            this.dgvThuongHieu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvThuongHieu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
+            this.BrandName,
+            this.Address});
+            this.dgvThuongHieu.Location = new System.Drawing.Point(0, 310);
+            this.dgvThuongHieu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgvThuongHieu.Name = "dgvThuongHieu";
+            this.dgvThuongHieu.ReadOnly = true;
+            this.dgvThuongHieu.RowHeadersWidth = 62;
+            this.dgvThuongHieu.RowTemplate.Height = 33;
+            this.dgvThuongHieu.Size = new System.Drawing.Size(426, 250);
+            this.dgvThuongHieu.TabIndex = 3;
             // 
             // Id
             // 
-            Id.DataPropertyName = "Id";
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 8;
-            Id.Name = "Id";
-            Id.ReadOnly = true;
-            Id.Visible = false;
-            Id.Width = 150;
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "Id";
+            this.Id.MinimumWidth = 8;
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Visible = false;
+            this.Id.Width = 150;
             // 
             // BrandName
             // 
-            BrandName.DataPropertyName = "Name";
-            BrandName.HeaderText = "Tên Thương Hiệu";
-            BrandName.MinimumWidth = 8;
-            BrandName.Name = "BrandName";
-            BrandName.ReadOnly = true;
-            BrandName.Width = 150;
+            this.BrandName.DataPropertyName = "Name";
+            this.BrandName.HeaderText = "Tên Thương Hiệu";
+            this.BrandName.MinimumWidth = 8;
+            this.BrandName.Name = "BrandName";
+            this.BrandName.ReadOnly = true;
+            this.BrandName.Width = 150;
             // 
             // Address
             // 
-            Address.DataPropertyName = "Address";
-            Address.HeaderText = "Địa Chỉ";
-            Address.MinimumWidth = 8;
-            Address.Name = "Address";
-            Address.ReadOnly = true;
-            Address.Width = 150;
+            this.Address.DataPropertyName = "Address";
+            this.Address.HeaderText = "Địa Chỉ";
+            this.Address.MinimumWidth = 8;
+            this.Address.Name = "Address";
+            this.Address.ReadOnly = true;
+            this.Address.Width = 150;
             // 
             // frmQuanLyThuongHieu
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1263, 690);
-            Controls.Add(dgvThuongHieu);
-            Controls.Add(qbThuongHieu);
-            Controls.Add(label1);
-            Name = "frmQuanLyThuongHieu";
-            Text = "frmQuanLyThuongHieu";
-            Load += frmQuanLyThuongHieu_Load;
-            qbThuongHieu.ResumeLayout(false);
-            qbThuongHieu.PerformLayout();
-            gbTimKiemThuongHieu.ResumeLayout(false);
-            gbTimKiemThuongHieu.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvThuongHieu).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1137, 552);
+            this.Controls.Add(this.dgvThuongHieu);
+            this.Controls.Add(this.qbThuongHieu);
+            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "frmQuanLyThuongHieu";
+            this.Text = "frmQuanLyThuongHieu";
+            this.Load += new System.EventHandler(this.frmQuanLyThuongHieu_Load);
+            this.qbThuongHieu.ResumeLayout(false);
+            this.qbThuongHieu.PerformLayout();
+            this.gbTimKiemThuongHieu.ResumeLayout(false);
+            this.gbTimKiemThuongHieu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvThuongHieu)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
