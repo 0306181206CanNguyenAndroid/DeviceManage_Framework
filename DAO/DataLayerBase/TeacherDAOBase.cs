@@ -307,6 +307,42 @@ namespace DAO.DataLayerBase
             return ojbTeacher;
         }
 
+        public static TeacherModel SelectTeacherByUserId(int Id, bool? isDeleted)
+        {
+            TeacherModel ojbTeacher = null;
+            using (SqlConnection conn = new SqlConnection(PathString.ConnectionString))
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(ProcString.procNameTeacher_SelectByUserId, conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue(ProcString.prmId, Id);
+                    if(isDeleted==null)
+                    {
+                        cmd.Parameters.AddWithValue(ProcString.prmIsDeleted, DBNull.Value);
+                    }
+                    else
+                        cmd.Parameters.AddWithValue(ProcString.prmIsDeleted, isDeleted.Value);
+                    
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+                        if (dt != null)
+                        {
+                            if (dt.Rows.Count > 0)
+                            {
+                                int id = (int)dt.Rows[0]["TeacherId"];
+                                ojbTeacher = SelectTeacherById(id);
+                            }
+                        }
+                    }
+                }
+            }
+            return ojbTeacher;
+        }
+
         protected static TeacherModel CreateTeacherfromDataRow(DataRow dr)
         {
             TeacherModel teacherModel = new TeacherModel();

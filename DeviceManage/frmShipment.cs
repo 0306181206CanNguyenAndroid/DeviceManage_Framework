@@ -24,6 +24,7 @@ namespace DeviceManage
         }
         #region Model
 
+        public UserModel user = null;
         public ShipmentModel currentShipment = null;
         public ShipmentDetailModel currentShipmentDetail = null;
         private List<ShipmentModel> listShipment = null;
@@ -89,6 +90,11 @@ namespace DeviceManage
             cb_Brand.DataSource = BrandBus.GetBrandAfterDelete();
         }
 
+        private void ReloadShipmentDetail()
+        {
+            LoadShipmentDetailSource();
+            LoadDataGridViewShipmentDetail();
+        }
         private void LoadShipmentDetailSource()
         {
             if (currentShipment != null)
@@ -120,17 +126,92 @@ namespace DeviceManage
         #endregion
 
         #region Create and Update Shipment
-
-        #endregion
-
-        private void btn_Del_Click(object sender, EventArgs e)
+        private void btn_Create_Click(object sender, EventArgs e)
         {
-
+            if(CheckInfoShipment())
+            {
+                try
+                {
+                    ShipmentModel phieu = GetShipmentData();
+                    int id = ShipmentBus.Insert(phieu);
+                    phieu.Id = id;
+                    listShipment.Add(phieu);
+                    LoadDataGridViewShipment();
+                }
+                catch(Exception ex)
+                {
+                    MessageClass.Message_Event(ex.Message, SettingClass.TextTitle_ThongBao, true);
+                }
+            }
         }
 
-        private void tab_Shipment_Click(object sender, EventArgs e)
+        private bool CheckInfoShipment()
         {
+            if(String.IsNullOrEmpty(txt_Invoice.Text.Trim()))
+            {
+                MessageClass.Message_CheckData("Mã lô hàng", SettingClass.TextTitle_Warning);
+                return false;
+            }
 
+            if (String.IsNullOrEmpty(txt_ShipmentName.Text.Trim()))
+            {
+                MessageClass.Message_CheckData("Tên phiếu nhập", SettingClass.TextTitle_Warning);
+                return false;
+            }
+            if (dtp_ImportDate.Value.Date > DateTime.Now.Date)
+            {
+                MessageClass.Message_CheckData("Ngày nhập hàng", SettingClass.TextTitle_Warning);
+                return false;
+            }
+            return true;
+        }
+
+        private ShipmentModel GetShipmentData()
+        {
+            ShipmentModel ship = new ShipmentModel();
+            //TeacherModel teacher = TeacherBus.SelectTeacherByUserId(user.Id,false);
+            TeacherModel teacher = TeacherBus.SelectTeacherByUserId(1,false);
+            ship.ApproverId = teacher != null ? teacher.Id : 1;
+            ship.ImportDate = dtp_ImportDate.Value;
+            ship.Invoice = txt_Invoice.Text.Trim();
+            ship.Name = txt_ShipmentName.Text.Trim();
+            ship.Description = txt_Note.Text.Trim();
+            ship.BrandId = (int)cb_Brand.SelectedValue;
+            ship.IsDeleted = false;
+            ship.Status = 0;
+            //ship.CreatedUserId = user.Id;
+            ship.CreatedUserId = 1;
+            return ship;
+        }
+        private void btn_AddDevice_Click(object sender, EventArgs e)
+        {
+            if(currentShipment!=null)
+            {
+                //AddDeviceFromShipment frmAddDevice = new AddDeviceFromShipment(currentShipment,user.Id);
+                AddDeviceFromShipment frmAddDevice = new AddDeviceFromShipment(currentShipment,1);
+                frmAddDevice.Show();
+            }
+            else
+            {
+                MessageClass.Message_Event("Chưa chọn phiếu", SettingClass.TextTitle_ThongBao,false);
+            }    
+        }
+        private void btn_Del_Click(object sender, EventArgs e)
+        {
+            if(listShipment.Count>0)
+            {
+                if(currentShipment!=null)
+                {
+                    ShipmentModel sh = ShipmentBus.SelectByPrimaryKey(currentShipment.Id);
+                    sh.IsDeleted = true;
+                    ShipmentBus.Update(sh);
+                    listShipment.Remove(currentShipment);
+                    btn_Del.Enabled = false;
+                    LoadDataGridViewShipment();
+                    currentShipment = null;
+                    dtgv_Shipment.ClearSelection();
+                }
+            }
         }
 
         private void btn_Update_Click(object sender, EventArgs e)
@@ -138,14 +219,35 @@ namespace DeviceManage
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+
+
+
+        #endregion
+
+        #region Create and Update Shipment Detail
+
+
+        #endregion
+
+        #region ChangeForm
+        private void dtgv_Shipment_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            if (dtgv_Shipment.SelectedCells.Count > 0)
+            {
+                int Id = (int)dtgv_Shipment.SelectedCells[0].OwningRow.Cells["Id"].Value;
+                foreach (ShipmentModel sh in listShipment)
+                {
+                    if(sh.Id == Id)
+                    {
+                        currentShipment = sh;
+                        btn_Update.Enabled = true;
+                        btn_Del.Enabled = true;
+                        LoadBeginData();
+                        ReloadShipmentDetail();
+                    }
+                }
+            }
         }
-
-        private void btn_AddDevice_Click(object sender, EventArgs e)
-        {
-
-        }
+        #endregion
     }
 }

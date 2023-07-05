@@ -119,8 +119,7 @@ namespace DeviceManage
 
         private void frmTrangChu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Bạn có thật sự muốn thoát chương trình?", "Thông Báo", MessageBoxButtons.OKCancel)
-                == System.Windows.Forms.DialogResult.OK)
+            if (MessageClass.Message_Event_YesNo("thoát chương trình","Lưu ý!"))
             {
                 if(logout!=null)
                 {

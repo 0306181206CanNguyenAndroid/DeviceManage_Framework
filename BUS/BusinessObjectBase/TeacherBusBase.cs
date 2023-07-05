@@ -112,5 +112,9 @@ namespace BUS.BusinessOjectBase
         {
             return TeacherDAO.SelectTeacherById(Id);
         }
+        public static TeacherModel SelectTeacherByUserId(int Id, bool? isDeleted)
+        {
+            return TeacherDAO.SelectTeacherByUserId(Id, isDeleted);
+        }
     }
 }
