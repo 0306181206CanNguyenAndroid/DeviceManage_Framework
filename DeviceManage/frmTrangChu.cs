@@ -133,5 +133,11 @@ namespace DeviceManage
                 e.Cancel = true;
             }
         }
+
+        private void btnBaoCaoThongKe_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmBaoCaoThongKe());
+            lbl_text.Text=btnBaoCaoThongKe.Text;
+        }
     }
 }
